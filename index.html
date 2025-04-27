@@ -1,0 +1,111 @@
+<html>
+<head>
+   <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+<nav>
+    <ul>
+        <li><a href="#homepage">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+<hr>
+
+<article id="homepage">
+    <header>
+        <h1>Welcome Everyone!</h1>
+    </header>
+    <p>You can learn about me here in my website!</p>
+</article>
+
+<article id="about">
+    <h1>Kenna Teklu</h1>
+    <img src="https://i.imgflip.com/7k9z87.jpg" alt="a fake picture of me, Kenna, is being shown">
+    <p>Hello I'm a business major and programming minor.</p>
+    
+    <h2>My Hobbies</h2>
+    <p>reading books 👀</p>
+    
+    <h3>My Favorite Books</h3>
+    <ol>
+        <li>Book of Daniel</li>
+        <li>Acts</li>
+        <li>Rich Dad Poor Dad</li>
+        <li>Think and Grow Rich</li>
+    </ol>
+
+    <h3>Least Favorite Movies</h3>
+    <ul>
+        <li>Deadpool (while interesting overall, some scenes got me off guard)</li>
+        <li>IT (IT terrified my lil sis, I mean as a horror movie it succeeded)</li>
+    </ul>
+
+    <p>My favorite (most used) website: 
+        <a href="https://mail.google.com">Gmail</a>
+    </p>
+
+    <h2>Weekly Schedule</h2>
+    <p>(edit: workplace shift change has been made since last assignement. Grateful!)</p>
+    <table border="1">
+        <tr>
+            <th>Time</th>
+            <th>Tuesday</th>
+            <th>Thursday</th>
+        </tr>
+        <tr>
+            <td>8:30am-9:30am</td>
+            <td>Marketing</td>
+            <td>Marketing</td>
+        </tr>
+        <tr>
+            <td>11:00am - 10:30pm</td>
+            <td>Work</td>
+            <td>Work</td>
+        </tr>
+    </table>
+</article>
+
+<article id="resume">
+    <h1>Resume</h1>
+    <h2>Kenna Teklu</h2>
+    <p> 1 W. Firestorm Way • Glendale, AZ 85306 • fake_example_email@arizonachristian.edu • (555) 123-4567</p>
+
+    <h3>Education</h3>
+    <p><strong>Arizona CHristian University</strong> - Glendale, AZ<br>
+    Junior | Business Administration major, Computer Programming Minor<br>
+    Expected Graduation: May 2026<br>
+    Relevant Coursework: Web Development, Marketing Strategy, Financial Accounting</p>
+
+    <h3>Experience</h3>
+    <p>_____</p>
+
+    <h3>Skills</h3>
+    ABCD 123 __
+</article>
+
+<article id="contact">
+    <h1>Contact Me</h1>
+    <form action="https://httpbin.org/get" method="get">
+        <p>
+            <label for="firstName">First name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+        </p>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </p>
+        <p>
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject" required>
+        </p>
+        <p>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea>
+        </p>
+        <button type="submit">Send Message</button>
+    </form>
+</article>
+</body>
+</html>

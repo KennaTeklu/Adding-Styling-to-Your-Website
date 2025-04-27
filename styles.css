@@ -1,0 +1,17 @@
+/* styles.css */  
+body { background: lightgrey; }  
+nav { background: black; }  
+nav a { color: white; }  
+
+/* Homepage */  
+#homepage h1 { color: navy; }  
+#homepage p { color: #444; }  
+
+/* About Me */  
+#about h1 { color: darkblue; }  
+#about p { color: dimgrey; }  
+#about p:last-child { color: #666; }  
+
+/* Contact Form */  
+label { color: #333; }  
+input, textarea { background: lightyellow; }  
